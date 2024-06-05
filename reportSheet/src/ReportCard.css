@@ -1,0 +1,65 @@
+/* src/ReportCard.css */
+.head{
+  color: #007dfe;
+  background-color: #dbebf8;
+  border-radius:2px;
+}
+.details{
+  color: #007dfe;
+  background-color: #dbebf8;
+  border-radius:2px;
+}
+.report-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid whitesmoke ;
+  max-width: 90%;
+  margin-left: 40%;
+}
+.container{
+  align-items: center;
+  justify-content: center;
+}
+.report-card .img-thumbnail {
+  max-width: 150px;
+}
+
+.passport{
+  max-height: 12rem;
+}
+
+.comments{
+  background-color: #dbebf8;
+  color: #007dfe;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.comment{
+  background-color: white;
+  border-radius: 2px;
+  width: 90%;
+  padding: 3%;
+}
+.ratings {
+  background-color: #dbebf8;
+  color: #007dfe;
+}
+.ratings-head{
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .report-card {
+    width: 60%;
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 600px) {
+   .report-card {
+    width: 80%;
+    margin-left: 10%;
+   }
+}
